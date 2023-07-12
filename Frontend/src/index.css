@@ -38,6 +38,11 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
   color: #5a3099;
+  background: -webkit-linear-gradient(#01569B, #7C2098);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
 }
 
 button {
