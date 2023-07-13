@@ -3,15 +3,11 @@ import promoOfficeMedexNrw from './assets/promo-officemedex-nrw.png'
 import './App.css'
 
 
-getYear() {
-  return new Date().getFullYear();
-}
 
 
 function App() {
  
   const imageUrl = window.innerWidth >= 650 ? promoOfficeMedex : promoOfficeMedexNrw;
-  
   
 
   return (
@@ -24,7 +20,7 @@ function App() {
       <h1
       className='title'
       >Office Medex</h1>
-<span>Advanced Psychiatry Associates &copy; {this.getYear()};</span>
+<span>Advanced Psychiatry Associates &copy; 2023</span>
 
     </>
   )
