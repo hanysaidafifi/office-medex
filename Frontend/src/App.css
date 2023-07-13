@@ -5,7 +5,7 @@
 }
 
 .logo {
-  max-height: 75vh;
+  max-height: 65vh;
   width: 100%;
   will-change: filter;
   transition: filter 300ms;
