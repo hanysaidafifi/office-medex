@@ -1,16 +1,21 @@
-import { useState } from 'react'
+'use client'
 import promoOfficeMedex from './assets/promo-officemedex.png'
-import advpsyLogo from './assets/advancedpsych-logoonly.png'
+import promoOfficeMedexNrw from './assets/promo-officemedex-nrw.png'
 import './App.css'
 
+
+
+
+
 function App() {
-  const [count, setCount] = useState(0)
+ 
+  const imageUrl = window.innerWidth >= 650 ? promoOfficeMedex : promoOfficeMedexNrw;
 
   return (
     <>
       <div>
         <a href="https://advancedpsychiatryassociates.com/" target="_blank">
-          <img src={promoOfficeMedex} className="logo" alt="Office Medex promo" />
+          <img src={imageUrl} className="logo" alt="Office Medex promo" />
         </a>
       </div>
       <h1>Office Medex</h1>
