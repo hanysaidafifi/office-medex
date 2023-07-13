@@ -18,7 +18,9 @@ function App() {
           <img src={imageUrl} className="logo" alt="Office Medex promo" />
         </a>
       </div>
-      <h1>Office Medex</h1>
+      <h1
+      className='title'
+      >Office Medex</h1>
 
     </>
   )
